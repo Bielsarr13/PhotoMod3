@@ -3,7 +3,7 @@
 
 
 # Load packages -----------------------------------------------------------
-packs <- c("lubridate", "stringr", 'tidyverse','viridis','data.table','cowplot','plotly', 'ggplot2')
+packs <- c("lubridate", "stringr", 'tidyverse','viridis','data.table','cowplot','plotly', 'ggplot2', 'dplyr')
 InstIfNec<-function (pack) {
   if (!do.call(require,as.list(pack))) {
     do.call(install.packages,as.list(pack))  }
