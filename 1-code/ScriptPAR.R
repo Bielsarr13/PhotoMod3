@@ -208,7 +208,7 @@ ggplot(ombrage_df, aes(x=as.Date(Date), y=as.numeric(heure_ombrage), color=as.fa
 
 
 
-
+#Periode ombrage
 
 seuil <- 0.2  # adapte-le à 0.9, 0.85, 0.5, etc.
 
