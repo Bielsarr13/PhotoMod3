@@ -1,7 +1,16 @@
-.Rproj.user
-.Rhistory
+### R Data & history
 .RData
+.Rhistory
+*.RProj
+.Rproj.user/
 .Ruserdata
 
+### Data (contains all output & inputs)
+0-data/
 2-output/
+2-figure/
+Docs/
+Stage*/
 
+
+### Unusefull R scripts
